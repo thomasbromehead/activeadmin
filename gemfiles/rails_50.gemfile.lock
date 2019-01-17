@@ -5,6 +5,14 @@ GIT
   specs:
     cancancan (2.3.0)
 
+GIT
+  remote: https://github.com/rails/sprockets
+  revision: 9e3f0d8e98c44f57e67bc138db87bb8469bf5ddd
+  specs:
+    sprockets (4.0.0.beta8)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+
 PATH
   remote: ..
   specs:
@@ -284,12 +292,6 @@ GEM
     sassc (2.0.1)
       ffi (~> 1.9)
       rake
-    sassc-rails (2.1.0)
-      railties (>= 4.0.0)
-      sassc (>= 2.0)
-      sprockets (> 3.0)
-      sprockets-rails
-      tilt
     selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
@@ -300,9 +302,6 @@ GEM
     simplecov-html (0.10.2)
     spoon (0.0.6)
       ffi
-    sprockets (3.7.2)
-      concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
     sprockets-es6 (0.9.2)
       babel-source (>= 5.8.11)
       babel-transpiler
@@ -315,7 +314,6 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     thread_safe (0.3.6-java)
-    tilt (2.0.9)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     warden (1.2.8)
@@ -354,9 +352,9 @@ DEPENDENCIES
   rails-i18n
   rake
   rspec-rails
-  sassc-rails (~> 2.1)
   selenium-webdriver
   simplecov
+  sprockets!
   sqlite3 (~> 1.3.6)
 
 BUNDLED WITH
