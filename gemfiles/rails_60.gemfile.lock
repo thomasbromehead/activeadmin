@@ -1,13 +1,13 @@
 GIT
   remote: https://github.com/jruby/activerecord-jdbc-adapter
-  revision: e49f1435167610e7801012da0d74d32234f8bc1d
+  revision: c6c6da8d7ce6db0f22e9f0e53e71ce5fbefc86fd
   specs:
     activerecord-jdbc-adapter (60.0-java)
       activerecord (~> 6.0.0.beta3)
     activerecord-jdbcsqlite3-adapter (60.0-java)
       activerecord-jdbc-adapter (= 60.0)
       jdbc-sqlite3 (~> 3.8, < 3.30)
-    jdbc-sqlite3 (3.20.1)
+    jdbc-sqlite3 (3.27.2.1)
 
 GIT
   remote: https://github.com/rails/rails
